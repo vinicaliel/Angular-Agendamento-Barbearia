@@ -3,7 +3,7 @@ import { ClientModelForm } from '../../client.models';
 import { FormsModule, NgForm } from '@angular/forms';
 import { NgxMaskDirective } from 'ngx-mask';
 import {MatInputModule} from '@angular/material/input'
-import {MatButton, MatButtonModule} from '@angular/material/button'
+import { MatButtonModule} from '@angular/material/button'
 import {MatFormFieldModule} from '@angular/material/form-field'
 
 @Component({
@@ -16,7 +16,7 @@ import {MatFormFieldModule} from '@angular/material/form-field'
     MatButtonModule
   ],
   templateUrl: './client-form.component.html',
-  styleUrl: './client-form.component.css'
+  styleUrl: './client-form.component.scss'
 })
 export class ClientFormComponent {
 
