@@ -3,6 +3,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "BarberApiApplication",
+      "request": "launch",
+      "mainClass": "dio.barber_api.BarberApiApplication",
+      "projectName": "barber-api"
+    },
+    {
       "name": "ng serve",
       "type": "chrome",
       "request": "launch",
