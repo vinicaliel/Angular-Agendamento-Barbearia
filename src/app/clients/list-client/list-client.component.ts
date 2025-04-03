@@ -1,7 +1,7 @@
 import { Component, Inject } from '@angular/core';
 import { SERVICES_TOKEN } from '../../services/service.token';
 import { ClientsService } from '../../services/api-client/clients/clients.service';
-import { IClientService } from '../../services/api-client/clients/iclients.servicer';
+import { IClientService } from '../../services/api-client/clients/iclients.service';
 
 @Component({
   selector: 'app-list-client',
